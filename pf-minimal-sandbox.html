@@ -3,7 +3,81 @@
   <title> </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-  <body>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans" rel="stylesheet">
+  <style type="text/css">
 
+    .logo {
+        font-family: "IBM Plex Sans", sans-serif;
+    }
+
+    body {
+        font-family: "IBM Plex Mono", monospace;
+    }
+
+    .bg-col-dark {
+        background-color: #303139;
+    }
+
+  </style>
+  <body>
+      <div class="flex flex-column vh-100">
+          <header class="fixed w-100">
+              <div class="center mw9 flex justify-center justify-start-ns ph4 pv2 pv3-ns">
+                  <div class="di dib-ns pa2 bg-col-dark">
+                      <span class="logo tracked f5-ns f6 white"><b>Stephen Wright</b></span>
+                  </div>
+              </div>
+          </header>
+          <main class="w-100">
+              <div class="center mw9 flex flex-wrap pv4 pv5-ns f6 f5-ns">
+                  <div class="w-50-ns w-100 ph4">
+                      <p class="f4">Hello!</p>
+                      <p>
+                          My name is <b>Steve</b> and I am a <b>wearer of <i>many hats</i></b>.
+                      </p>
+                      <p>
+                          I can do lots of stuff:
+                          <ul>
+                              <li>
+                                  Developing & Testing
+                                  <ul>
+                                      <li>C# (especially for Unity3D)</li>
+                                      <li>Javascript, SCSS (and the rest of the Front-end stack)</li>
+                                      <li>Shell (and a bunch of other scripting languages)</li>
+                                      <li>C++ (for embedded systems)</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  Production
+                                  <ul>
+                                      <li>Technical Project Management</li>
+                                      <li>Producer</li>
+                                      <li>Ops & People Management</li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  Design
+                                  <ul>
+                                      <li>I have an eye for good UI & UX</li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </p>
+                      <p>
+                          I'm a pretty approachable person, and always happy to chat!
+                      </p>
+                      <p>
+                          Find me on <a class="no-underline">Twitter</a>, <a class="no-underline">Stack Overflow</a>, <a class="no-underline">Github</a> or <a class="no-underline">LinkedIn</a>.
+                      </p>
+                      <p>
+                          Or even better, drop me an email at <a class="no-underline">hello@stephencwright.co.uk</a>
+                      </p>
+                  </div>
+                  <div class="w-50-ns w-100 ph4">
+                      <h3 class="f4">Latest Blog</h3>
+                  </div>
+              </div>
+          </main>
+      </div>
   </body>
 </html>
