@@ -8,9 +8,15 @@ class Navbar extends React.Component {
 
         return(
 
-            <div className="mw9 flex justify-center items-center">
-                <Logo/>
-            </div>
+            <header className="fixed bg-white w-100">
+
+                <div className="mw9 center ph5 pt3 pb3 mt2 mb2">
+
+                    <Logo/>
+
+                </div>
+
+            </header>
 
         )
 

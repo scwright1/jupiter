@@ -4,7 +4,7 @@ module.exports = {
         author: 'Steve Wright',
         description: 'Stephen C Wright August 2018 Portfolio',
         siteUrl: 'https://scwright1.github.io/jupiter',
-        shortTitle: 'Stephen Wright',
+        shortTitle: 'Basically Logo',
     },
     pathPrefix: '/jupiter',
 }
