@@ -1,5 +1,7 @@
 import React from 'react'
 
+import {Link} from 'gatsby'
+
 import Logo from './logo'
 
 class Navbar extends React.Component {
@@ -8,9 +10,9 @@ class Navbar extends React.Component {
 
         return(
 
-            <header className="fixed bg-white w-100">
+            <header className="fixed w-100">
 
-                <div className="mw9 center ph5 pt3 pb3 mt2 mb2">
+                <div className="mw9 center ph5 pt3 pb3 mt2 mb2 dt db-ns">
 
                     <Logo/>
 
