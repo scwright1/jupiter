@@ -13,7 +13,7 @@ class Template extends React.Component {
         return(
             <div className="index-layout-wrapper">
                 <Navbar/>
-                <main className="main-content">
+                <main className="main-content vh-100 relative">
                     { children }
                 </main>
             </div>

@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Logo from './logo'
+import ResponsiveMenu from './responsive-menu'
 
 class Navbar extends React.Component {
 
@@ -8,11 +10,35 @@ class Navbar extends React.Component {
 
         return(
 
-            <header className="fixed bg-white w-100">
+            <header className="fl w-100 h4 ph6-l ph5-m ph4-ns fixed z-999">
 
-                <div className="mw9 center ph5 pt3 pb3 mt2 mb2">
+                <div className="mw9 center pv4 mt3 ph4">
 
                     <Logo/>
+
+                    <div id="menu-button" className="hamburger fr dib dn-l">
+
+                        <div className="bar-inner upper"></div>
+
+                        <div className="bar-inner mid"></div>
+
+                        <div className="bar-inner lower"></div>
+
+                    </div>
+
+                    <div id="desktop-menu" className="f5 lh-solid tracked-mega pv2 fr dn dib-l gilroy-medium">
+
+                        <Link to="#" className="link strike white ttu mv4 mh3 dim">about</Link>
+
+                        <Link to="#" className="link strike white ttu mv4 mh3 dim">projects</Link>
+
+                        <Link to="#" className="link strike white ttu mv4 mh3 dim">blog</Link>
+
+                        <Link to="#" className="link strike white ttu mv4 ml3 dim">reach me</Link>
+
+                    </div>
+
+                    <ResponsiveMenu/>
 
                 </div>
 

@@ -13,14 +13,12 @@ export default () => (
             }
         `}
         render={data => (
-            <div className="pt2 pb2 ph3 bg-col-dark dib lh-solid">
-                <Link
-                    to="/"
-                    className="f5 white no-underline gilroy-medium tracked lh-solid"
-                    >
-                    { data.site.siteMetadata.shortTitle }
-                </Link>
-            </div>
+            <Link
+                to="/"
+                className="bg-col-dark white f5 lh-solid gilroy-semibold tracked dib pt2 pv2 ph3 link no-underline"
+                >
+                { data.site.siteMetadata.shortTitle }
+            </Link>
         )}
     />
 )
