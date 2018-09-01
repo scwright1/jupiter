@@ -1,0 +1,33 @@
+#responsive-menu {
+    pointer-events: none;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    -ms-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -webkit-transition: opacity 0.2s ease;
+}
+
+#responsive-menu.show {
+    pointer-events: auto;
+    overflow: auto;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+    -ms-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -webkit-transition: opacity 0.2s ease;
+}
+
+#responsive-menu > .responsive-menu-backer {
+    top: 50%;
+    line-height: 6rem;
+}
+
+#responsive-menu > .responsive-menu-options {
+    top: 50%;
+    margin-top: -10rem;
+}
+
+#responsive-menu > .responsive-menu-options > a {
+    line-height: 4rem;
+}

@@ -6,17 +6,50 @@ import ResponsiveMenu from './responsive-menu'
 
 class Navbar extends React.Component {
 
+    constructor(props) {
+
+        super(props)
+
+        this.state = {menuOpen: false}
+
+        this.setMenuState = this.setMenuState.bind(this)
+
+        this.toggleMenu = this.toggleMenu.bind(this)
+
+    }
+
+    setMenuState = () => {
+
+        if(this.state.menuOpen) {
+
+            this.setState({menuOpen: false})
+
+        } else {
+
+            this.setState({menuOpen: true})
+
+        }
+
+    }
+
+    toggleMenu = (menuState) => {
+
+        this.setState({menuOpen: menuState})
+
+    }
+
+
     render() {
 
         return(
 
-            <header className="fl w-100 h4 ph6-l ph5-m ph4-ns fixed z-999">
+            <header className="fl w-100 h4 ph6-l ph5-m ph4-ns fixed z-max">
 
                 <div className="mw9 center pv4 mt3 ph4">
 
                     <Logo/>
 
-                    <div id="menu-button" className="hamburger fr dib dn-l">
+                    <div id="menu-button" className="hamburger fr dib dn-l" onClick={this.setMenuState}>
 
                         <div className="bar-inner upper"></div>
 
@@ -26,21 +59,21 @@ class Navbar extends React.Component {
 
                     </div>
 
-                    <div id="desktop-menu" className="f5 lh-solid tracked-mega pv2 fr dn dib-l gilroy-medium">
+                    <div id="desktop-menu" className="f6 lh-solid tracked-mega pv2 fr dn dib-l gilroy-medium">
 
-                        <Link to="#" className="link strike white ttu mv4 mh3 dim">about</Link>
+                        <Link to="#" className="link strike white ttu mv4 mh3 disabled-link">about</Link>
 
-                        <Link to="#" className="link strike white ttu mv4 mh3 dim">projects</Link>
+                        <Link to="#" className="link strike white ttu mv4 mh3 disabled-link">projects</Link>
 
-                        <Link to="#" className="link strike white ttu mv4 mh3 dim">blog</Link>
+                        <Link to="#" className="link strike white ttu mv4 mh3 disabled-link">blog</Link>
 
-                        <Link to="#" className="link strike white ttu mv4 ml3 dim">reach me</Link>
+                        <Link to="#" className="link strike white ttu mv4 ml3 disabled-link">reach me</Link>
 
                     </div>
 
-                    <ResponsiveMenu/>
-
                 </div>
+
+                <ResponsiveMenu active={this.state.menuOpen} onMenuChange={this.toggleMenu}/>
 
             </header>
 

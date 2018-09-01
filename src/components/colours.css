@@ -91,6 +91,15 @@
     -moz-transition: 0.2s ease color;
 }
 
+.col-near-dark {
+    color: #363842;
+    transition: 0.2s ease color;
+    transition: 0.2s ease color;
+    -o-transition: 0.2s ease color;
+    -webkit-transition: 0.2s ease color;
+    -moz-transition: 0.2s ease color;
+}
+
 .bg-col-dark {
     background-color: #303139;
     transition: 0.2s ease background-color;
