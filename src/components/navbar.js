@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import { FiXCircle, FiTwitter, FiGithub } from 'react-icons/fi'
+
 import Logo from './logo'
 import ResponsiveMenu from './responsive-menu'
 
@@ -67,7 +69,11 @@ class Navbar extends React.Component {
 
                         <Link to="#" className="link strike white ttu mv4 mh3 disabled-link">blog</Link>
 
-                        <Link to="#" className="link strike white ttu mv4 ml3 disabled-link">reach me</Link>
+                        <a href="mailto:hello@stephencwright.co.uk" className="link white ttu mv4 ml3 dim no-underline">reach me</a>
+
+                        <a href="mailto:hello@stephencwright.co.uk" className="link white ttu mv4 ml2 dim no-underline"><FiTwitter/></a>
+
+                        <a href="mailto:hello@stephencwright.co.uk" className="link white ttu mv4 ml2 dim no-underline"><FiGithub/></a>
 
                     </div>
 

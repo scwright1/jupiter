@@ -82,11 +82,11 @@ class ResponsiveMenu extends React.Component {
 
                     <div className="h3">
 
-                        <Link
-                            to="#"
-                            className="link white f5 strike disabled-link">
+                        <a
+                            href="mailto:hello@stephencwright.co.uk"
+                            className="link white f5 no-underline dim">
                             r e a c h&nbsp;&nbsp;m e
-                        </Link>
+                        </a>
 
                     </div>
 
