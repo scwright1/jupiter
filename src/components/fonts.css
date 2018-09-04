@@ -77,3 +77,35 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face{
+    font-family:"Gilroy Thin";
+    font-weight:normal;
+    font-style:normal;
+    src:url("/fonts/gilroy/eot/Gilroy-Thin.eot");
+    src:url("/fonts/gilroy/eot/Gilroy-Thin.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/gilroy/woff2/Gilroy-Thin.woff2") format("woff2"),
+    url("/fonts/gilroy/woff/Gilroy-Thin.woff") format("woff")
+}
+
+.gilroy-thin {
+    font-family: "Gilroy Thin";
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"Gilroy UltraLight";
+    font-weight:normal;
+    font-style:normal;
+    src:url("/fonts/gilroy/eot/Gilroy-UltraLight.eot");
+    src:url("/fonts/gilroy/eot/Gilroy-UltraLight.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/gilroy/woff2/Gilroy-UltraLight.woff2") format("woff2"),
+    url("/fonts/gilroy/woff/Gilroy-UltraLight.woff") format("woff")
+}
+
+.gilroy-ultralight {
+    font-family: "Gilroy UltraLight";
+    font-weight: normal;
+    font-style: normal;
+}

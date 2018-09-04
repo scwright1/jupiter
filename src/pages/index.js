@@ -12,9 +12,7 @@ class Index extends React.Component {
     render() {
         return(
             <Layout>
-                <section className="h-100 w-100 relative bg-gradient">
-
-                </section>
+                <HeadlinePanel/>
             </Layout>
         )
     }

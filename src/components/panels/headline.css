@@ -1,10 +1,1 @@
-.container {
-    background: rgba(114,217,172,1);
-    background: -moz-linear-gradient(45deg, rgba(114,217,172,1) 0%, rgba(101,72,209,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(114,217,172,1)), color-stop(100%, rgba(101,72,209,1)));
-    background: -webkit-linear-gradient(45deg, rgba(114,217,172,1) 0%, rgba(101,72,209,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(114,217,172,1) 0%, rgba(101,72,209,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(114,217,172,1) 0%, rgba(101,72,209,1) 100%);
-    background: linear-gradient(45deg, rgba(114,217,172,1) 0%, rgba(101,72,209,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72d9ac', endColorstr='#6548d1', GradientType=1 );
-}
+
