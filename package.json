@@ -1,0 +1,45 @@
+{
+    "name": "jupiter",
+    "description": "Stephen C Wright August 2018 Portfolio",
+    "version": "0.0.1",
+    "author": "Steve Wright <github@stephencwright.co.uk>",
+    "bugs": {
+        "url": "https://github.com/scwright1/jupiter/issues"
+    },
+    "dependencies": {
+        "classnames": "^2.2.6",
+        "gatsby": "next",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "react-icons": "^3.0.5",
+        "tachyons": "^4.11.1"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-plugin-react": "^7.7.0",
+        "gh-pages": "^1.2.0",
+        "prettier": "^1.12.0"
+    },
+    "homepage": "https://github.com/scwright1/jupiter#readme",
+    "keywords": [
+        "gatsby",
+        "blog",
+        "portfolio"
+    ],
+    "license": "MIT",
+    "main": "n/a",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/scwright1/jupiter.git"
+    },
+    "scripts": {
+        "dev": "gatsby develop",
+        "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+        "develop": "gatsby develop",
+        "build": "gatsby build",
+        "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+        "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --noeslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    }
+}
