@@ -10,7 +10,7 @@ class Headline extends React.Component {
 
                 <div className="dtc v-mid tc white gilroy-ultralight ph3 ph4-l">
 
-                    <h1 class="f6 f2-m f-subheadline-l fw6 tc ttu">c o m i n g&nbsp;&nbsp;s o o n</h1>
+                    <h1 class="f6 f2-m f-subheadline-l fw6 tc ttu">t e c h n i c a l&nbsp;&nbsp;p r o d u c e r</h1>
 
                 </div>
 
