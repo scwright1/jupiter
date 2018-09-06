@@ -67,7 +67,7 @@ class Navbar extends React.Component {
 
                         <Link to="#" className="link strike white ttu mv4 mh3 disabled-link">projects</Link>
 
-                        <Link to="#" className="link strike white ttu mv4 mh3 disabled-link">blog</Link>
+                        <Link to="#blog" className="link no-underline dim white ttu mv4 mh3">blog</Link>
 
                         <a href="mailto:hello@stephencwright.co.uk" className="link white ttu mv4 ml3 dim no-underline">reach me</a>
 

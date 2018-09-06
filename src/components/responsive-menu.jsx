@@ -73,8 +73,8 @@ class ResponsiveMenu extends React.Component {
                     <div className="h3">
 
                         <Link
-                            to="#"
-                            className="link white f5 strike disabled-link">
+                            to="#blog"
+                            className="link white f5 no-underline dim">
                             b l o g
                         </Link>
 

@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from '../components/layouts/index-layout'
 
 import HeadlinePanel from '../components/panels/headline'
+import BlogPanel from '../components/panels/blog'
 
 import '../components/fonts.css'
 import '../components/colours.css'
@@ -13,6 +14,7 @@ class Index extends React.Component {
         return(
             <Layout>
                 <HeadlinePanel/>
+                <BlogPanel/>
             </Layout>
         )
     }

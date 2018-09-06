@@ -6,11 +6,11 @@ class Headline extends React.Component {
 
         return(
 
-            <section className="vh-100 w-100 ma0 relative bg-gradient dt">
+            <section id="headline" className="vh-100 w-100 ma0 relative bg-gradient dt">
 
                 <div className="dtc v-mid tc white gilroy-ultralight ph3 ph4-l">
 
-                    <h1 class="f6 f2-m f-subheadline-l fw6 tc ttu">technical&nbsp;producer</h1>
+                    <h1 className="f6 f2-m f-subheadline-l fw6 tc ttu">technical&nbsp;producer</h1>
 
                 </div>
 
