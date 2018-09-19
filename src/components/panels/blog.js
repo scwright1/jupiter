@@ -1,5 +1,5 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 
 export default () => (
 
@@ -15,6 +15,9 @@ export default () => (
                                 title
                                 date(formatString: "DD MMM YYYY")
                             }
+                            fields {
+                                slug
+                            }
                             excerpt
                         }
                     }
@@ -26,9 +29,11 @@ export default () => (
                 <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                     <div key={node.id}>
-                        <h3>{node.frontmatter.title}</h3>
-                        <span>{node.frontmatter.date}</span>
-                        <p>{node.excerpt}</p>
+                        <Link to={node.fields.slug}>
+              <h3>{node.frontmatter.title}{" "}</h3>
+              <h3>{node.frontmatter.date}</h3>
+              <p>{node.excerpt}</p>
+            </Link>
                     </div>
                 ))}
             </section>
