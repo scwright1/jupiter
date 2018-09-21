@@ -9,7 +9,6 @@ import Navbar from '../navbar'
 import Footer from '../footer'
 
 export default ({ children }) => (
-    //const { children } = this.props
     <StaticQuery
         query={graphql`
             query {

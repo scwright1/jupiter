@@ -1,8 +1,28 @@
 ---
-title: "Basic Page"
-date: "2018-09-06"
+title: "Changes"
+date: "2018-09-21"
 ---
 
-# some markdown
+<span style="font-size: 24px"><b>For Eight Years, </b></span>I have worked at IBM, one of the largest (and oldest!) technology companies in the world, and as much as I love the people that I work with, and revere the skill of many of my colleagues, recently I have had the enormous fortune to be given the opportunity to switch to working in a field that I'm deeply passionate about.  Given the scale of the change, and though it's not uncommon for people to move from Corporate IT to Start-up, I wanted to write my thoughts about the process of switching careers, to provide a pseudo-logbook of the peaks and pitfalls of making that change.
 
-_here_ is some *markdown* 
+
+
+When I started working at IBM in 2010 I can definitely say that I felt a sense of pride when I told people where I worked.  "IBM" seems to automatically result in an impressed "ooh" from Aunts, Uncles and Grandparents who remember when computers were the size of a two-bedroom apartment and looked like something out of a Gerry Anderson TV series, with banks of spinning tape wheels and indecipherable flashing lights, but if you ask them what they think IBM actually _does_, I very much doubt any of them would be able to tell you.  In fact, more often than not, that "ooh" will be appended with;
+
+> "...are they still a thing??"
+
+It's often difficult to comprehend the sheer scale of IBM.  It's a computing company that has been around for over 100 years in one form or another, and in that time it has done a great many things.  Tabulating Computers, Mainframes, POS, Message Queues, Storage and Archive, Cloud Computing, AI, Quantum Computing, Microprocessors, Banking; it has a lot of fingers in a lot of pies.
+
+I have spent my entire career thus-far working in a single area of this behemoth corporation - Storage Virtualization.  (Yes, it really is as sexy as it sounds.)  Effectively, our technology provides a solution to presenting a giant pool of redundant storage arrays as a series of sliced and diced virtual disks, which can then be attached to potentially hundreds of host servers and used for...well whatever you might want to use block-level storage for.  And it is _very_ good at what it does.  IBM Spectrum Virtualize is constantly in the #1 or #2 spot in almost every industry ranking for this area, and we do _innovate_ (as much as it's possible to innovate with a bunch of storage disks.).
+
+In the not-quite-decade that I've worked for this department, I've held 6 different positions.  I have been a Tester, Test Lead, Build/Infrastructure Lead, OEM Development Lead, Technical Lead and Producer.  All of these positions have afforded me a quite remarkable ability to shimmy my way up the career ladder in a sort of snake-like fashion, dodging Development-heavy roles and personnel-heavy positions such as Line Management, and basically have let me dabble in things for as long as they held my interest.  They've also enabled me to, as much as I see it, put myself into a position of respect and a voice of authority in the department in general, though quite how I've managed that I'm not too sure.
+
+However, as the years have progressed, there is one massive issue that I have identified with working this technology stack;
+
+**I just don't care.**
+
+As much as I try to carve out my own path within the department, within the company in general, i've found myself increasingly feeling disconnected from the technology that I am supposed to be advocating.  As a millennial with a degree in Computer Games Programming and a hobby/background in Gaming and Web Technology, it's _very **very**_ difficult to get excited by SAS, Replication Technology, IO Paths or any of the other multitude of Enterprise buzzwords that keep our critical banks and services from crashing all around us when someone accidentally trips over a cable in the Datacenter.
+
+I grappled with this problem for quite a long time, probably 2 years or so, whilst simultaneously trying to find something within the department that appealed to me and would keep my interest.  It's not like I was quiet about it either.  My colleagues and management have been nothing but helpful and supportive with this problem, and have attempted to help me seek out opportunities which would pique my interest more than their "cookie-cutter" employee.  
+
+Unfortunately for them, that perfect job never appeared within IBM, but fortunately for me, outside something entirely different suddenly appeared about 18 months ago.
