@@ -25,7 +25,7 @@ export default () => (
             }
         `}
         render={data => (
-            <section className="vh-100 w-100 ma0 relative dt">
+            <section id="blog-summary" className="content-panel vh-100 w-100 ma0 relative dt" data-navbar-scheme="dark">
                 <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                     <div key={node.id}>

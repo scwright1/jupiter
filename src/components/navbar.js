@@ -40,6 +40,18 @@ class Navbar extends React.Component {
 
     }
 
+    _handleScroll(ev) {
+        console.log("scrolling");
+    }
+
+    componentDidMount = () => {
+        window.addEventListener('scroll', this._handleScroll);
+    }
+
+    componentWillUnmount = () => {
+        window.addEventListener('scroll', this._handleScroll)
+    }
+
 
     render() {
 

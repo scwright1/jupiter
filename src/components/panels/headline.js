@@ -6,7 +6,7 @@ class Headline extends React.Component {
 
         return(
 
-            <section id="headline" className="vh-100 w-100 ma0 relative bg-gradient dt">
+            <section id="headline" className="content-panel vh-100 w-100 ma0 relative bg-gradient dt" data-navbar-scheme="light">
 
                 <div className="dtc v-mid tc white gilroy-ultralight ph3 ph4-l">
 
