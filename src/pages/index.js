@@ -14,7 +14,6 @@ class Index extends React.Component {
         return(
             <Layout>
                 <HeadlinePanel/>
-                <BlogPanel/>
             </Layout>
         )
     }

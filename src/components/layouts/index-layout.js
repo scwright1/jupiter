@@ -8,7 +8,7 @@ import Navbar from '../navbar'
 
 import Footer from '../footer'
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
     <StaticQuery
         query={graphql`
             query {
@@ -30,3 +30,15 @@ export default ({ children }) => (
         )}
     />
 )
+
+class LayoutComponent extends React.Component {
+    render() {
+        return (
+            <Layout children={this.props.children} />
+        )
+    }
+}
+
+
+
+export default LayoutComponent

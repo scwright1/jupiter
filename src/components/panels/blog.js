@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
 
-export default () => (
+const BlogSummaryBuilder = () => (
 
     <StaticQuery
         query={graphql`
@@ -40,3 +40,13 @@ export default () => (
         )}
     />
 )
+
+class BlogSummaryComponent extends React.Component {
+    render () {
+        return (
+            <BlogSummaryBuilder />
+        )
+    }
+}
+
+export default BlogSummaryComponent
