@@ -1,4 +1,0 @@
-#responsive-menu{opacity:0;overflow:hidden;pointer-events:none}#responsive-menu,#responsive-menu.show{transition:opacity .2s ease}#responsive-menu.show{opacity:1;overflow:auto;pointer-events:auto}#responsive-menu>.responsive-menu-backer{line-height:6rem;top:50%}#responsive-menu>.responsive-menu-options{margin-top:-10rem;top:50%}#responsive-menu>.responsive-menu-options>a{line-height:4rem}
-
-
-/*# sourceMappingURL=component---src-templates-blog-post-js.d47a009f3823ac008683.css.map*/
